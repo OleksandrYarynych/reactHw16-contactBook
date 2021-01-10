@@ -7,7 +7,7 @@
 
 .searchFeld {
   width: 100%;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,9 +41,9 @@
 
 .contact{
   widows: 100%;
-  height: 50px;
+  height: 60px;
   text-align: left;
-  padding: 5px 5px;
+  padding: 5px 10px;
 
 }
 
@@ -52,6 +52,16 @@
   margin-right: 5px;
 }
 
-.contact-namber{
+.contact-number,
+.contact-gender{
   opacity: .6;
+}
+
+label{
+  margin: 0 20px 0 10px;
+}
+
+input[type="checkbox"]{
+  cursor: pointer;
+  margin-bottom: 15px;
 }
